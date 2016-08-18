@@ -12,6 +12,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   <name>storm-esper</name>
   <url>http://maven.apache.org</url>
 
+
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -28,7 +31,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            <groupId>org.apache.storm</groupId>
          <artifactId>storm-core</artifactId>
          <version>0.9.2-incubating</version>
-         <scope>provided</scope> 
        </dependency>
   </dependencies>
   
