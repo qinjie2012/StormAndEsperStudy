@@ -22,7 +22,7 @@ import backtype.storm.topology.base.BaseRichSpout;
 public class IPSpout extends BaseRichSpout{
 
 	private static final Log log = LogFactory.getLog(BaseRichSpout.class);
-	private LinkedList<IPBean> IPBeanBuff = new LinkedList<IPBean>();
+	private LinkedList<String> IPBeanBuff = new LinkedList<String>();
 	private SpoutOutputCollector _collector;
 	@Override
 	public void nextTuple() {
@@ -39,6 +39,8 @@ public class IPSpout extends BaseRichSpout{
 
 	}
 
+	
+	
 	
 	
 
